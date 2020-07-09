@@ -24,6 +24,8 @@ def get_twitter_client():
 
     return client
 
+#Konto Zbigniewa Bońka: 'BoniekZibi'
+
 if __name__ == '__main__':
     user = input('Podaj użytkownika: ')
     client = get_twitter_client()
